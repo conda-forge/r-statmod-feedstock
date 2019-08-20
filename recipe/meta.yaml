@@ -16,9 +16,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
-
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,7 +30,6 @@ requirements:
     - {{ compiler('m2w64_c') }}  # [win]
   host:
     - r-base
-
   run:
     - r-base
 
@@ -51,6 +48,7 @@ about:
     model functions that implement secure convergence, dispersion modeling and Tweedie
     power-law families.
   license_family: GPL3
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
