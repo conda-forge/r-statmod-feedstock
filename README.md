@@ -3,7 +3,7 @@ About r-statmod
 
 Home: https://CRAN.R-project.org/package=statmod
 
-Package license: GPL-2 | GPL-3
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-statmod-feedstock/blob/master/LICENSE.txt)
 
