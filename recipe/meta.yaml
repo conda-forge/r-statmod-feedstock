@@ -8,7 +8,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: statmod_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/statmod_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/statmod/statmod_{{ version }}.tar.gz
@@ -16,7 +15,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -40,11 +39,12 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=statmod
-  license: GPL-2 | GPL-3
+  license: GPL-2.0-or-later
   summary: A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models.  Includes
     advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
