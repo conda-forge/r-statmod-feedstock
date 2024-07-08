@@ -28,6 +28,8 @@ requirements:
     - {{ compiler('m2w64_c') }}  # [win]
     - {{ stdlib("m2w64_c") }}    # [win]
     - {{ posix }}make
+    - {{ posix }}coreutils       # [win]
+    - {{ posix }}sed             # [win]
   host:
     - r-base
   run:
