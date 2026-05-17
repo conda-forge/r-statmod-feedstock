@@ -11,7 +11,7 @@ Home: https://CRAN.R-project.org/package=statmod
 
 Package license: GPL-2.0-or-later
 
-Summary: A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models.  Includes advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families.
+Summary: A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models. Includes advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families.
 
 About r-statmod
 ---------------
@@ -20,7 +20,7 @@ Home: https://CRAN.R-project.org/package=statmod
 
 Package license: GPL-2.0-or-later
 
-Summary: A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models.  Includes advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families.
+Summary: A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models. Includes advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families.
 
 Current build status
 ====================
